@@ -25,7 +25,8 @@ use case sample
 
 will be shown as
 
-![sample](https://pbs.twimg.com/media/C8uM4L9V0AELAXa.jpg:large)
+.. image:: https://pbs.twimg.com/media/C8uM4L9V0AELAXa.jpg
+  :alt: sample
 
 
 directive options
