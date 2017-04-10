@@ -16,33 +16,37 @@ available directives
 ~~~~~~~~~~~~~~~~~~~~~
 **git_release_logs**
 
-    directive options:
+directive options:
 
-        search_path:
-            git-rev-list command's paths option
+::
 
-        release_tags:
-            the release tag
+  search_path:
+      git-rev-list command's paths option
 
-        repository:
-            (optional) where repository is
+  release_tags:
+      the release tag
 
-        max_count:
-            (optional) maximum count of change logs. (default: 200)
+  repository:
+      (optional) where repository is
+
+  max_count:
+      (optional) maximum count of change logs. (default: 200)
 
 
 **git_change_logs**
 
-    directive options
+directive options
 
-        search_path:
-            git-rev-list command's paths option
+::
 
-        repository:
-            (optional) where repository is
+    search_path:
+        git-rev-list command's paths option
+            
+    repository:
+        (optional) where repository is
 
-        max_count:
-            (optional) maximum count of change logs. (default: 200)
+    max_count:
+        (optional) maximum count of change logs. (default: 200)
 
 
 use case sample
